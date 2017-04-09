@@ -1,0 +1,32 @@
+# Project artifacts
+# =================
+
+.nvmrc
+
+bin
+selenium-debug.log
+tests_output
+node_modules
+npm-debug.log
+
+# Vim temp files
+*~
+
+
+# OS X - Desktop Services Store
+# =============================
+
+.DS_Store
+
+
+# IDE - IntelliJ
+# ==============
+
+.bak/
+.idea/
+*.iml
+
+
+# IDE - TernJS
+# ============
+.tern-project
