@@ -18,6 +18,9 @@
     "start": "./node_modules/.bin/nightwatch",
     "preinstall": "echo $(node -p -e 'require(\"./package\").engines.node') > .nvmrc; npm run build"
   },
-  "devDependencies": { "nightwatch": "^0.9.14" },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "nightwatch": "^0.9.14"
+  },
   "dependencies": {}
 }
