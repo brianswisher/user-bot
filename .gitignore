@@ -1,6 +1,7 @@
 # Project artifacts
 # =================
 
+.env
 .nvmrc
 
 bin
